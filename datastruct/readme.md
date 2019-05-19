@@ -4,7 +4,7 @@
 
 ### 1. 邻接表
 
-> 1. 图节点的数据表示 **VNode**:
+###### 1. 图节点的数据表示 **VNode**:
 
 ```node
 class VNode
@@ -22,7 +22,7 @@ class VNode
 }
 ```
 
-> 2. 图边数据表示 **ENode**:
+###### 2. 图边数据表示 **ENode**:
 
 ```node
 class ENode
@@ -35,7 +35,7 @@ class ENode
 }
 ```
 
-> 3. 有向无环图的数据结构 **DAG**
+###### 3. 有向无环图的数据结构 **DAG**
 
 ```js
 class DAG
@@ -58,4 +58,26 @@ class DAG
 }
 ```
 
-### 2. 邻接矩阵
+## 2. DAG 拓扑排序
+
+###### 1. 拓扑排序删边法
+
+> 1. 找到所有入度为 0 的节点， 将以此节点出发的边删除.
+> 2. 访问度为 0 的节点，并更新图的度
+> 3. 重复 1
+
+###### 2. 测试的图结构
+
+<p align="center">
+  <a href="https://github.com/zhaotianxiang/graph-algorithm">
+    <img alt="Node.js" src="https://github.com/zhaotianxiang/graph-algorithm/blob/master/test.graph.PNG" width="400"/>
+  </a>
+</p>
+
+###### 3. 拓扑排序输出结果
+
+<p align="left">
+  <a href="https://github.com/zhaotianxiang/graph-algorithm">
+    <img alt="Node.js" src="https://github.com/zhaotianxiang/graph-algorithm/blob/master/test_dag_result.PNG" width="400"/>
+  </a>
+</p>
