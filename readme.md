@@ -14,6 +14,6 @@
 #### 4. BFS 广度优先搜索
 #### 5. DAG 拓扑排序
 ###### 1.测试的图结构
-![测试图结构]("./test.graph.PNG")
+![测试图结构]("https://github.com/zhaotianxiang/graph-algorithm/blob/master/test.graph.PNG")
 #### 6. 最小生成树
 #### 7. 最短路径
