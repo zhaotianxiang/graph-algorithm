@@ -16,13 +16,13 @@
 ###### 1. 测试的图结构
 <p align="center">
   <a href="https://github.com/zhaotianxiang/graph-algorithm">
-    <img alt="Node.js" src="https://github.com/zhaotianxiang/graph-algorithm/blob/master/test.graph.PNG" width="800"/>
+    <img alt="Node.js" src="https://github.com/zhaotianxiang/graph-algorithm/blob/master/test.graph.PNG" width="400"/>
   </a>
 </p>
 ###### 2. 拓扑排序输出结果
-<p align="center">
+<p align="left">
   <a href="https://github.com/zhaotianxiang/graph-algorithm">
-    <img alt="Node.js" src="https://github.com/zhaotianxiang/graph-algorithm/blob/master/test_dag_result.PNG" width="800"/>
+    <img alt="Node.js" src="https://github.com/zhaotianxiang/graph-algorithm/blob/master/test_dag_result.PNG" width="400"/>
   </a>
 </p>
 #### 6. 最小生成树
