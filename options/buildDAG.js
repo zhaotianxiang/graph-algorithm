@@ -2,7 +2,7 @@ var G = require('../datastruct/adjlist');
 
 let g = new G.DAG();
 
-g.makeDAG([{
+g.build([{
 	source: 'a',
 	target: 'b'
 }, {

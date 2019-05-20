@@ -29,7 +29,6 @@ class ENode {
 class DAG {
 	constructor() {
 		this.vSet = new Set();
-		this.eSet = new Set();
 
 		this.vertices = []; // 图节点数组, 邻接表表示
 		this.vexNum = 0; // 节点数
@@ -91,7 +90,7 @@ class DAG {
 	/**
 	 * {[source:'a', target:'b']}
 	 **/
-	buildDAG(options) {
+	build(options) {
 		options.forEach(it => {
 			for (let key in it) {
 				this.addVNode(new VNode(it[key]));

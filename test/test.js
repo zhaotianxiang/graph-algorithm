@@ -30,7 +30,7 @@ console.log('\n\n*********************我是分割线*****************\n\n');
 
 let g2 = new G.DAG();
 
-g2.buildDAG([{
+g2.build([{
 	source: 'a',
 	target: 'b'
 }, {
